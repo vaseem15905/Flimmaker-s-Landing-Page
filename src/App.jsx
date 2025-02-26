@@ -7,7 +7,7 @@ export default function LandingPage() {
   return (
     <div className="min-h-screen font-mono bg-white text-purple-900 scroll-smooth">
       {/* Navbar */}
-      <nav className="bg-purple-700 text-white py-6 px-10 flex justify-between items-center shadow-lg fixed w-full top-0 z-50">
+      <nav className="bg-black-700 text-white py-6 px-10 flex justify-between items-center shadow-lg fixed w-full top-0 z-50">
         <h1 className="text-3xl font-bold flex items-center"><FaFilm className="mr-3" /> FilmConnect</h1>
         <ul className="flex space-x-8 text-lg">
           <li><a href="#home" className="hover:text-gray-300">Home</a></li>
@@ -20,7 +20,7 @@ export default function LandingPage() {
       </nav>
 
       {/* Hero Section */}
-      <section id="home" className="h-screen flex flex-col justify-center items-center text-center px-6 bg-purple-900 text-white">
+      <section id="home" className="h-screen flex flex-col justify-center items-center text-center px-6 bg-black text-white">
         <FaFilm className="text-[12rem] mb-6" />
         <h1 className="text-6xl font-extrabold drop-shadow-lg">Wanna Become a Film Maker?</h1>
         <p className="text-2xl mt-4 max-w-3xl drop-shadow-md">
@@ -30,9 +30,9 @@ export default function LandingPage() {
       </section>
 
       {/* About Us */}
-      <section id="about" className="h-screen flex flex-col justify-center items-center px-16 bg-purple-100 rounded-lg shadow-lg">
-        <FaLightbulb className="text-[10rem] text-purple-700 mb-6" />
-        <h2 className="text-5xl font-bold text-purple-800">About Us</h2>
+      <section id="about" className="h-screen flex flex-col justify-center items-center px-16 bg-black-100 rounded-lg shadow-lg">
+        <FaLightbulb className="text-[10rem] text-black-700 mb-6" />
+        <h2 className="text-5xl font-bold text-black-800">About Us</h2>
         <p className="mt-6 text-2xl text-gray-700 text-center w-3/4">
           Many shoots and projects get canceled due to last-minute crew or cast issues. 
           We work closely with clients to bring their creative visions to life with a passionate and skilled team.
